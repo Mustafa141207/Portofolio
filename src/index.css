@@ -1,0 +1,83 @@
+*{
+  padding: 0px;
+  margin: 0px ;
+  text-decoration: none;
+  box-sizing: border-box;
+ color: #DDF2FD;
+ 
+  transition: 0.5s all;
+  font-family: "Poppins", sans-serif;
+}
+
+#Home,#About,#Project,#Contact{
+  background-color: black;
+  height: 100vh;
+  /* background-image: url(./component/Assets/img/wallpaperflare.com_wallpaper\ \(6\).jpg);
+
+/* background-position: center;
+background-size: cover; */ 
+}
+body{
+  position: relative;
+}
+
+.icons .icon{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.icons .icon i{
+ color:#FE7A36;;
+  /* color: #f40000; */
+  font-size: 20px;
+}
+aside{
+  /* background-color:rgb(96, 35, 35); */
+  background-color: #FE7A36;
+ width: 16.66666667%;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+ul li{
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+ul#sideBarList li:hover{
+  transform: translateX(15px);
+  cursor: pointer;
+  background-color: black;
+  padding: 10px;
+  
+}
+.bar{
+  padding: 15px;
+}
+#Project,#About{
+  height: fit-content;
+}
+#sideBar{
+  position:absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 66;
+  right: auto;
+}
+.SideBody{
+  background-color: #FE7A36;
+}
+
+
