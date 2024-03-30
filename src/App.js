@@ -13,6 +13,7 @@ export default function App() {
   let router=createBrowserRouter(
     [
       {path:'',element:<Master/>,children:[
+        {path:'',element:<Home/>},
         {path:'Home',element:<Home/>},
         {path:'About',element:<About/>},
         {path:'Project',element:<Project/>},
